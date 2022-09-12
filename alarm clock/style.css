@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-size: 28px;
+    font-family:'Coming Soon' , 'sans-serif';
+}
+body{
+    background-color: rgb(211, 6, 149);
+    font-family:Poppins;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    height: 80%;
+    width: 50%;
+    border-radius: 10%;
+    text-align: center;
+    padding: 5%;
+}
+img{
+    height: 40%;
+    width: 40%;
+}
+h1{
+    margin: 5%;
+}
+.form{
+    width: 90%;
+    margin: auto;
+}
+.select-menu select{
+    width: 45%;
+    text-align: center;
+    background-color: #FEC147; 
+}
+.submit button{
+    background-color: #4A98F7;
+    width: 85%;
+}
+.form select , .submit button {
+    border: 0;
+    margin: 1%;
+    height: 30% ;
+    border-radius: 5px;
+}
+#setText{
+    margin-top: 5%;
+}
